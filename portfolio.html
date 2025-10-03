@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Artiom Covali</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
   <body>
+    <header>
+      <h1>Artiom Covali</h1>
+      <p>Computer Science @ Cal Poly SLO</p>
+    </header>
+
     <nav>
-      <h1>
-        <a href="index.html">Personal Website</a>
-      </h1>
-      <ul class="nav-list">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -13,7 +21,39 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main></main>
-    <footer>© 2023 Artiom Covali | All Rights Reserved</footer>
+
+    <div class="container">
+      <section>
+        <h2>Cloud Microservices</h2>
+        <p>
+          Go services for authentication, file storage, and notifications. Dockerized and deployed
+          on Kubernetes.
+        </p>
+      </section>
+
+      <section>
+        <h2>Label IQ</h2>
+        <p>
+          Shipping label comparison tool integrating PirateShip, Shippo, and EasyPost with Firebase
+          authentication.
+        </p>
+      </section>
+
+      <section>
+        <h2>AI4SAR UI</h2>
+        <p>
+          React dashboard for Search and Rescue teams to enter mission data and view AI predictions.
+        </p>
+      </section>
+
+      <section>
+        <h2>This Website</h2>
+        <p>Built for Hack4Impact bootcamp using simple HTML and CSS.</p>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2025 Artiom Covali</p>
+    </footer>
   </body>
 </html>

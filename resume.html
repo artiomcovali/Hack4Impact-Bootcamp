@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Personal Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume — Artiom Covali</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header>
+      <h1>Resume</h1>
+    </header>
+
     <nav>
-      <h1>
-        <a href="index.html">Personal Website</a>
-      </h1>
-      <ul class="nav-list">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -16,26 +20,83 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main>
-      <h1>My Resume</h1>
-      <div class="resume">
-        <section class="section">
-          <h2 class="section-title">Education</h2>
-        </section>
-        <section class="section">
-          <h2 class="section-title">Experience</h2>
-        </section>
-        <section class="section">
-          <h2 class="section-title">Projects</h2>
-        </section>
-        <section class="section">
-          <h2 class="section-title">Skills</h2>
-        </section>
-        <section class="section">
-          <h2 class="section-title">Activities</h2>
-        </section>
-      </div>
-    </main>
-    <footer>© 2023 Artiom Covali | All Rights Reserved</footer>
+
+    <div class="container">
+      <section>
+        <h2>Education</h2>
+        <p>
+          <strong>California Polytechnic State University, San Luis Obispo</strong><br />
+          B.S. Computer Science (Sales minor) — Expected June 2028
+        </p>
+        <p>
+          <strong>Relevant Coursework:</strong> Data Structures & Algorithms, Computer Organization,
+          OOP & Design, Linear Algebra
+        </p>
+        <p>
+          <strong>Clubs:</strong> AI for Search & Rescue, Hack4Impact, Tech Sales, Phi Sigma Kappa
+        </p>
+      </section>
+
+      <section>
+        <h2>Experience</h2>
+        <h3>Walmart Marketplace Seller — E-Commerce Software Developer</h3>
+        <p>May 2025 – Present • Remote</p>
+        <ul>
+          <li>
+            Built Python automations to analyze prices/rankings and source high-demand products
+          </li>
+          <li>Automated label purchasing + tracking emails via Walmart API & SMTP</li>
+          <li>Structured product datasets with Pandas for consistent sourcing decisions</li>
+        </ul>
+
+        <h3>Cal Poly AI for Search and Rescue — Software Developer</h3>
+        <p>Dec 2024 – Present • San Luis Obispo, CA</p>
+        <ul>
+          <li>React UI for validated mission input and prediction display</li>
+          <li>Collaborated with 20+ students; streamlined workflows for 50+ volunteers</li>
+        </ul>
+
+        <h3>Helix Spark Agency — Founder & Software Engineer</h3>
+        <p>Jan 2024 – Apr 2024 • San Francisco, CA</p>
+        <ul>
+          <li>
+            Automation tools for 10+ small businesses; improved Google ratings and outreach
+            efficiency
+          </li>
+          <li>Twilio SMS reminders (950+/mo) boosted attendance and reviews</li>
+          <li>Prospected 150+ leads via cold outreach</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong>Cloud Microservices</strong> — Go, Kubernetes, Docker, PostgreSQL; REST APIs,
+            caching, CI/CD to K8s
+          </li>
+          <li>
+            <strong>Label IQ</strong> — Node.js/React; multi-carrier labels with CSV imports &
+            Firebase auth
+          </li>
+          <li><strong>AI4SAR UI</strong> — React dashboard for SAR predictions and data entry</li>
+          <li><strong>Personal Website</strong> — This Hack4Impact project site</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+        <p><strong>Languages:</strong> Python, JavaScript, Go, Java, SQL, HTML/CSS</p>
+        <p><strong>Frameworks:</strong> Node.js, Express, React, React Native</p>
+        <p>
+          <strong>Tools:</strong> Docker, Kubernetes, Git, REST APIs, PostgreSQL, Pandas, MongoDB,
+          CI/CD
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2025 Artiom Covali</p>
+    </footer>
   </body>
 </html>

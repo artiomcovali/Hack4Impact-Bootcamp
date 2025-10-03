@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Personal Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Artiom Covali — Home</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header>
+      <h1>Artiom Covali</h1>
+      <p>Computer Science @ Cal Poly SLO</p>
+    </header>
+
     <nav>
-      <h1>
-        <a href="index.html">Personal Website</a>
-      </h1>
-      <ul class="nav-list">
+      <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
@@ -16,23 +21,28 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    <main>
-      <div class="about">
-        <div class="about-image">
-          <img
-            src="https://png.pngtree.com/png-clipart/20230512/original/pngtree-isolated-cat-on-white-background-png-image_9158356.png"
-            alt="Cute Cat Photo"
-          />
-        </div>
-        <div class="about-text">
-          <h1>hello world!</h1>
-          <p>
-            Hello my name is <strong>Artiom Covali</strong> and I am a 2nd year
-            <strong>Computer Science</strong> student at Cal Poly SLO.
-          </p>
-        </div>
-      </div>
-    </main>
+
+    <div class="container">
+      <section>
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Artiom! I'm a 2nd year Computer Science student @ Cal Poly SLO with a passion for
+          building software that makes workflows smoother and more efficient.
+        </p>
+      </section>
+
+      <section>
+        <h2>Highlights</h2>
+        <ul>
+          <li>Frontend Developer @ AI4SAR</li>
+          <li>Founder of Helix Spark Agency</li>
+          <li>Experience with Go, React, Node.js, Docker, Kubernetes</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer>
+      <p>© 2025 Artiom Covali</p>
+    </footer>
   </body>
-  <footer>© 2023 Artiom Covali | All Rights Reserved</footer>
 </html>
